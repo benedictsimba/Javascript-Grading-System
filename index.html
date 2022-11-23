@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grading System in Javascript</title>
+   <link rel="stylesheet" href="index.css">
+   <script src="index.js"></script>
+ </head>
+ <body style="background-color: skyblue">
+  <center>
+  <h1 style="margin-top: 10px">Grading System in Javascript</h1>
+</center>
+
+ <table id="main">
+  <thead id="head"><h1>Grading System In JS</h1></thead>
+    <tr><td><label>English</label><td><input type="text" id="eng"></td><tr>	
+    <tr><td><label>Maths:</label></td><td><input type="text" id="mat"></td><tr>	
+    <tr><td><label>Physics:</label></td><td><input type="text" id="phy"></td><tr>	
+    <tr><td><label>Chemistry:</label></td><td><input type="text" id="chm"></td><tr>	
+    <tr><td><label>Computer:</label></td><td><input type="text" id="cmp"></td><tr>	
+    
+        <tr>
+            <td><button class="btn1" onclick="Total()">Total</button></td>
+            <td><button class="btn2" onclick="Average()">Average</button></td>
+            <td><button class="btn3" onclick="Grade()">Grade</button></td>
+        </tr>
+ 
+  
+  <div id="result">
+    <div id="head1"><h1>Total</h1></div>
+	<div id="total">
+	
+   
+    </div>
+	<div id="head2"><h1>Average</h1></div>
+	<div id="avg">
+	
+	
+	</div>
+	<div id="head3"><h1>Grade</h1></div>
+	<div id="grade">
+	
+	
+	</div>
+</table>
+ </body>
+ </html>
